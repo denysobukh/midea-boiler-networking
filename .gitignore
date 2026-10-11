@@ -1,0 +1,34 @@
+__pycache__/
+certs/server.key
+proxy-logs/
+.venv/
+.uv-cache/
+.lan-venv/
+lan-secrets/
+lan-captures/
+midea-devices.json
+midea-local.json
+
+# Original research notes and private configuration
+README_RAW.md
+.env
+.env.*
+
+# Certificates, private keys and credential stores (at any depth)
+**/certs/
+**/certificates/
+**/*secret*/
+**/credentials/
+**/tokens/
+*.key
+*.pem
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+*.jks
+*.keystore
+*credentials*.json
+*secret*.json
+*token*.json

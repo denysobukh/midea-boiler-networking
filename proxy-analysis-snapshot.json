@@ -1,0 +1,2394 @@
+[
+  {
+    "time": "2026-10-11T10:36:12.936792+00:00",
+    "event": "listening",
+    "bind": "192.168.200.164",
+    "proxy_port": 28443,
+    "http_port": 8080,
+    "https_port": 8443
+  },
+  {
+    "time": "2026-10-11T10:37:55.805779+00:00",
+    "event": "listening",
+    "bind": "192.168.200.164",
+    "proxy_port": 28443,
+    "http_port": 8080,
+    "https_port": 8443
+  },
+  {
+    "time": "2026-10-11T10:42:53.430338+00:00",
+    "event": "listening",
+    "bind": "192.168.200.164",
+    "proxy_port": 28443,
+    "http_port": 8080,
+    "https_port": 8443
+  },
+  {
+    "time": "2026-10-11T10:42:56.577817+00:00",
+    "event": "connect",
+    "session": "20261011T104256577719Z-1",
+    "peer": [
+      "192.168.200.1",
+      49978
+    ],
+    "upstream": [
+      "35.71.136.152",
+      28443
+    ]
+  },
+  {
+    "time": "2026-10-11T10:42:56.756620+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 0,
+    "length": 424
+  },
+  {
+    "time": "2026-10-11T10:42:56.756916+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 424,
+    "type": 8,
+    "header": "837001a02008",
+    "hex": "837001a0200800005d7394810b6d98b68c1bdfddcfbae23b421e55df049c553d003e6446c8c8737d056757ce2d90fd80b9ad27cd961437e562d00684bb6eaa98dec1224fc298458c04900de2a25e6ebbf658e7f21f5c7a6c7e5c2c2adc4c38fc1676dcb5ed2482916567837ec60eb03dab36dcd6bab0ce69bdce61198ab7b432314e46fa054d6bc33473f4279253b716112820a7e32dd1e11d1a6864fbc526f141c63fa9e940c51a5c45a87d9df3e6c78cefb4df0cf325d2f0bd486684e2c600c850785093a6d2ee4133f6521cec4af13300090ae48cedf030463c211791d2183c93726ca4ab4e6c1746d871c3e55b13d852c53ca93e7a7ca4baa3e146217b9ff2909e5f457e33d387f5be9b7a49b8b84792b776488c572646bda498c016f3ea956a15acd1fab4bc70f7988a26456298ccc0a2aaa9179b39c8593fde6f489023b27d9fc4edc252f76f291cc48ec4ee78a6b9f34de85055331e1d90b82b0aca595fdd8e71847be4f2b7f328dbb815a3471239532e0f831b42f15657fd2ef30fb4cdd529942c2aeca5e18db5327b01b778721a208534663c0941c3766b6c95dff574192c4e49186209"
+  },
+  {
+    "time": "2026-10-11T10:42:56.977232+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 0,
+    "length": 168
+  },
+  {
+    "time": "2026-10-11T10:42:56.977388+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 168,
+    "type": 1,
+    "header": "837000a02001",
+    "hex": "837000a02001000053ce7feefc39d54c696e8e124ee3148b89c0310149de7618f2567d651b6b4a7de5a81f6e3f1296898c9f2ee75bab985d44c92127c3401fa12fb5833d5216d30a43bae5d36689183f9936c5b662a5dc0cb4ca2cec701d36c0f72e99f0103d30bdd1ecafbc75ba728693474abd91149bad4c2f0af83f18fa62d5d60a99b1dad459e337ab93013faf108d66e9fa2811687707b72d3c5beceb55531e110969cbb451"
+  },
+  {
+    "time": "2026-10-11T10:42:57.517538+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 424,
+    "length": 54
+  },
+  {
+    "time": "2026-10-11T10:42:57.517659+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 54,
+    "type": 2,
+    "header": "8370002e20b2",
+    "hex": "8370002e20b2aed73b0323c5cc7773d6fd423edfb5216afa2767f8108a8427ac8b733be2bfdd5bd8d26230fc8ca414467fda8cb9dd65"
+  },
+  {
+    "time": "2026-10-11T10:42:57.523427+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 478,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:42:57.523534+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063d8603884b93de856243dca4af309ea9b805310eabe42f6e85151cebbc44113f6ffc020279befa35a57e03651aefb4419c5c27babc6b6a26a3d48ccf38cab7ea9ad8e178ecdc68e34eecd0d8bf333ed1eb08ddec9d3707b44737a006ead7586832bc355ccc7bdafe60dce53d3cd83e5d85ccd1666cd732f9f30bfe8bad9b70002715368b64022904bed419d5b22a7d4d4"
+  },
+  {
+    "time": "2026-10-11T10:42:57.739183+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 168,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:42:57.739308+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063b2c2d7c3a2b7a379cf41c6ca36e3bfaed97b79c3d6d71f702863663d02a53eedcb0285e02280dd3dc87bb387400b9e4203b2a682b6a6d3449a49c80ab72a2f90399c433485b5b311bb176d0d18803af178278c44aafd31885696267eadd788b42b3f44734fce15dab272145c16f301b6fccb7ae31ab90a0fa3422ab346120396f07ed21b1dfb0c6a6ed74f61c5ab25af"
+  },
+  {
+    "time": "2026-10-11T10:42:57.749581+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 628,
+    "length": 102
+  },
+  {
+    "time": "2026-10-11T10:42:57.749689+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 102,
+    "type": 3,
+    "header": "8370005e2053",
+    "hex": "8370005e2053da49cab68dd5fbd7f125b5d974c5bb1e99096e078a517711e08cde5fec5ee130d7cfa0857a523247e19c310a87ab66debe1a901eaeee1f9c542393dcd9713d0dadd0baacb9daa8af03ceb9b5a6444fe612b94c8bccaeb5ba31feead28f859725"
+  },
+  {
+    "time": "2026-10-11T10:42:57.966000+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 318,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:42:57.966211+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063984c6d974849090288378318052dae32c54f246be7d7b40310127959f0ab28240aff0439971702aced35b0ad205f3eead8186a259fdc83dcd096b639641c1fddfb3203c1c1f62e6aec5725dfac30976a2eab5b61bcbb67185b231e2b5a6e59ef96c7afce5dabb8c111cdc84300b2cadd1b87846f4933abda401746c17d5d79bdaa66eeae1724815e5d8072119a7b2774"
+  },
+  {
+    "time": "2026-10-11T10:42:57.976457+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 730,
+    "length": 102
+  },
+  {
+    "time": "2026-10-11T10:42:57.976601+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 102,
+    "type": 3,
+    "header": "8370005e2053",
+    "hex": "8370005e2053d6caba7e735c9f59e9943ccca8646844cfffe1541694b2cd20483729ca00445156d6c73f382943412de144a44b372c9152ddf3b67789bab896a003edb9b6e033b3a72ebb9ab6863f99415707e30067cfa27d128643957cc695bba80bab777300"
+  },
+  {
+    "time": "2026-10-11T10:42:58.199290+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 468,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:42:58.199432+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20638021144327ebb32c3fb151653b872a90098909d375c4b4aeae206991b4bf8cb23cc347115edb1a0f29088c5661fe0fa68f08156e475c9e90d78d0d612354526d8780795833b5d33ad55f4c7ff5cff40a8843328babeff4491b8a63500a3afc54f3545c5aa406cdae9b8cb60f970b420bfc8a5b817cb0722f0f187fe3de924102694468c40f10ead0ab8217893240397d16773ead7ccbeaccf2070488a1be4fab"
+  },
+  {
+    "time": "2026-10-11T10:42:58.234095+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 832,
+    "length": 134
+  },
+  {
+    "time": "2026-10-11T10:42:58.234312+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 134,
+    "type": 3,
+    "header": "8370007e2063",
+    "hex": "8370007e206368d120a98d66182c73bd92ab4c5825bdca0342b77b27fcda56804970392075c3dab2699fdaffaff11b0be42303319722bf15822c0be37728f8bad9026d644c8f79e68c9505d870ff80a6a7ffb74fc5dfa03c610e424c70a363dbad1679c2e21ea730cc21602bfddec2b42f7a75f9300e955eb0d5a492cdf5e9a9c878c309f052"
+  },
+  {
+    "time": "2026-10-11T10:42:58.237444+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 966,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:42:58.237616+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e20637fb8df494648a7aff3e59be2c0e048f28dd3b0a96d2ed3fe3e58ae48df2fda381aa624a57a505bb5b819fde65f01556fe432f871dcdf7cba47ee20be72f673173d68acef50ea32c87de9790e5686e11d770969a25fa99cd77cdc0929d56b550578d39653526faf7877892ac11c3d55d2f074147f2fd495db09188484ac0739862f9572f60665d84e55c4cab471803849"
+  },
+  {
+    "time": "2026-10-11T10:42:58.242459+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1116,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:42:58.242617+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e206328e35a2bc43fd996b2b51e903e18cbd3ca317733545b0f2a3e32b795b6cc3d2f2a99ab2cce818c9a9f6bef7b7a81669a6aafaace048f7822b9cfb9c87356aa11b6bb6db1c2a1cb9cdec0dea08a6438f784e16b969688112965da7db5b57482fa1773496d4d1e281791418451ce67e70921f80987ad1a1cc6b71335f7f3b1b591d75f415185e2b34f1abfcc749a61f6766bc0d7e0706199c0408fe419645e971d"
+  },
+  {
+    "time": "2026-10-11T10:42:58.250167+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1282,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:42:58.250537+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063d642adb23173860aec38eba7213d75fbda9d577db87eb5c93b4de2c811a1514be9b1a925588a0b65360dc751852a4635f1fe21c3ffc4a898a58418f83f515ffe1d1149f9e5e18705f4200ed26be33c4f28bb2f01478d11189a7fbf08c3fd3d724fe6c9d7abccf9b181e948b5475279cf214e4a11cea1f96afc790e097ecf9bbeeaf8f7231c085bdc893861b3acf4c174f8e29948516220a77389374fe984fd17"
+  },
+  {
+    "time": "2026-10-11T10:42:58.423800+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1448,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:42:58.423926+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063321d9f07852376c7208ee560f430bf75ea195cdcb4871feb9af4e19668e21918195cbf342a167074cd6f4d6477aaefea4b58294a1cac10272098b9684bc5bfd9793c20b8df45c2c4898372336dc484513c21a21dddc0e5bcca2b8d9c486e5d33919e7311fcfa24077125ce0e19c95142"
+  },
+  {
+    "time": "2026-10-11T10:42:58.450637+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 634,
+    "length": 182
+  },
+  {
+    "time": "2026-10-11T10:42:58.450814+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 182,
+    "type": 3,
+    "header": "837000ae2063",
+    "hex": "837000ae20631cd278a960001c93cc7773f9aa667a00cd35288ba2c028bc667f3ee51dd694100531855cf7499626ce970b1062fb4ea86fa5ff15b540d49834fa7bd4705b987bb02ba06097a0c9c4fb49465eda28446706c1683343c782e5c0a07039d53dbf3791a94cf165c2532302081ffd911429da739b0869ed2ac947b535e3344a0d1c6b9beae1fb9bb528317f775b8ce1e2a385cc114cf7b10b45a826b000e5c138acf7d5d1e16cd2ce89b9801f0abdc6b5f074"
+  },
+  {
+    "time": "2026-10-11T10:42:58.459939+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 816,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:42:58.460019+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e20634ae0bf0eaf96bc04a572c1d2d27b4fd3db9f43444bb9372898d41cf85137eb4c77f699551468c318bb32b384bf4ec9a6024a4db0001ab72bf719498647c19c781dbea8b9cbfd051ebf0e8d920b719584c1f41c756ccdee18ad4564890eb7cd41888b3ee2b2250d4d7585a1e1697b360b"
+  },
+  {
+    "time": "2026-10-11T10:42:58.517764+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 934,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:42:58.517920+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e206306bb762f46fe4163b22db03be79546841b2dba2ea523b1e6892786a5186da2bb08f6acff637437064a7842ecbf4012a83e5260da9e924a7e3a865c3ad63f0e35d0308ceaff622cb80aa8f87ea0366484faf3fd465e5af31fc041b87f1830716c49e64c23cad983f482f4b21162246ca1"
+  },
+  {
+    "time": "2026-10-11T10:42:58.544365+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1052,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:42:58.544500+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e206396a87bf1abbb28de2024f3bb46e260010c724e805694ae9aaf80f78715c85c136e0f362e12525e8c5d0d6ed26b1dc84c1ae69ee330076800727f6155cf5eb21723f5dd65389b684cb6610b33cfffbc7a4a44e59d73403c32f41edb743163bb974ec4fd116f9d218d660933958bf9697c"
+  },
+  {
+    "time": "2026-10-11T10:42:58.668083+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1170,
+    "length": 134
+  },
+  {
+    "time": "2026-10-11T10:42:58.668200+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 134,
+    "type": 3,
+    "header": "8370007e2063",
+    "hex": "8370007e2063ef55cb96dcda872e8abfc5b9eb1aee27a9a164476767d211fc4ff0067974e5f2a8ffbc480f50f3176d9335c1bce59ef0fc25441069a7640383b5e55a67700fd74dc72666be49eda5365458ee4700ca80e26cd7c1315687876dc4b154f18117225686a05c742486760bc695592fc86e3f506b07960638580a02f391865817e1bf"
+  },
+  {
+    "time": "2026-10-11T10:42:58.680295+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1566,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:42:58.680400+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e206306fb13375200fb363f58bcb0ba65cf0d01e045da0c8c64b500752b371bc87225a3dcc9fe0400ff774eb42f104d528e27bed45f05afbd600600720f57f7883f39f46668a59667aae2fc3cace2f3cbc392849e4e6eb32afc4a6d6816f4696dcab33ef33c17fd1602c783f1031edbd0cd0e"
+  },
+  {
+    "time": "2026-10-11T10:42:58.685379+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1684,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:42:58.685463+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063b23b6d74b198464e25c7cdad5d4a4f783a3fcf00e34068c2f0f06cce5137db89147adb25478ced4e2a85f924737e2c1e3c7032cf74ac8e0f9d7f43ebaf36ced57e17e8ce84db42d6eb8eb13c47d6531af7d312af6fc9d17ce66a58a93e8227794bed63acf095fdc46c755eb90aafab34eb87a910b735595a3351c1729dbaa62ba4ecdddd45ae8eb5a529311d2df2c8f7"
+  },
+  {
+    "time": "2026-10-11T10:42:58.975691+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1304,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:42:58.975826+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063b71b807da129f5c23da13f795b0aab999e45222c28225f95fd3bff1d54a7a6b3cc74abaafc73f315eabc1f3a9833c448331b927b4d52de9d181cf65d6a1aa29f9a7629564b2c03544d16706e58883120901e70425a70e521f22f8c3dfa39419c06b0fdbc142e2476f49b738a4be2ddb0"
+  },
+  {
+    "time": "2026-10-11T10:42:58.977608+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1422,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:42:58.978030+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e20633f6c3ed5bd261e72a15c21180180d5b516ac6cf6f871e95e89fc1a24c2982de016d2a60d4884be41ab884191286f365134602658018bec3a99ed518be4de4f5d80cc19030af942010a646a4022db97ff02f3c798a73a1265868f90941c10f0073b5728ca6c7f02238ddc6a677d5393ab"
+  },
+  {
+    "time": "2026-10-11T10:42:59.264879+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1540,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:42:59.264964+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e206358487a724ed70e78b54e7f5f3bb787a2d215d4fb6892e0dab8bc8f3ceb4da183d12274dbba3488e1132c0a075d105e3f4835cc645cab7afb6147886dec3518a27f8666b249b4c4afa7875341c9445370bae5f071c08193f59b954aedc1020a91e9db2685048d057d338a7db2f249c8cf"
+  },
+  {
+    "time": "2026-10-11T10:42:59.412269+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1834,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:42:59.412647+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063b7cb747350e5e89bcd9e8aa5be86207c2b235b04ba576c9a678e8a49d718531185b1b971942d9f97d65a39816673b78413e1833c25bd279e008f30a332df48283a1b759ec6947911452eee65fdd7ee9e2aa7bb5df02b49bbb681e3d8ab56f7455ef5ad519d32881c2e82c7e4dcc6b43958cd85cc1433c0bdcfc0ec2d89065f34ace7ea8e1275851ef929018d682a8097"
+  },
+  {
+    "time": "2026-10-11T10:42:59.716216+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1658,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:42:59.716357+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e206307e71230a3aeab5005fdf02df40052059dd13b5e30b8a512d0cf1d7cb6d85566b20bd66a54c2ac4706a3b476858581392f60a9135be69a044de365a93617c5d58ab117095508406433068bc9c0c6c4beee8df12fbb57975175426a37f4540ddf15d3de093e3b8a02b2b158ddbbb730ab"
+  },
+  {
+    "time": "2026-10-11T10:42:59.726267+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1984,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:42:59.726412+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063f4f792b79bc892790a7cb85a21762fc246b78a095747a0465aa8a932b4e8d4b431d3dcd8effed4c08836f91fee5104aea108ea2ee4d17471f805914367cb770c1fc1f49a98ad639e3e6164e2ffe5748fd62b684f1f7b31024c3860913b1aefd2fbf197690ac1d3e7a96df23c5a246796"
+  },
+  {
+    "time": "2026-10-11T10:43:00.949486+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 2102,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:43:00.949648+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20630ea33a3884650507070186268b1419a933ceb5f802e70966d506729d71d8b324bce086af03721b555adc577887fc206c8956173f5ba32a37ef15cf8b472e3ae2bb5b71df1c26c9aa13a74a7d04686f58674292fd89dc9b35c0be7cb064f5655008f2c26ec4fd5079b0e864616132054b74ae8ef65dcb237f35f325bd973943085ef275f7773a1104d392061ab16904f71ff679adda42b73f6597344521160471"
+  },
+  {
+    "time": "2026-10-11T10:43:03.835775+00:00",
+    "event": "status_request",
+    "peer": [
+      "192.168.200.164",
+      52459
+    ],
+    "request": "GET / HTTP/1.1"
+  },
+  {
+    "time": "2026-10-11T10:43:03.993975+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 2268,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:43:03.994165+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20630ee9cad1d69f0a971411c1b20964d837af83f9148ff26c91ab8f7f9563503f159a91a731daba5ce0316134e19470472dc5b19d769586cb37ffd3abb8eabece5b6a474de8282ecf6b59a2a54631427ae54368568847a911451a9ddad5bbd65a0b295ded2b53a89d24ba78fe2e28bf021c34ba6b41b7a24bec9762401f3a99a81e6d17e9126adfde0678c7a0bee7368ee9fc5664bd7c8bb01dd8a2aa21c1d4ebe9"
+  },
+  {
+    "time": "2026-10-11T10:43:05.327890+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 2434,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:43:05.328071+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063047d35b0ab23145cf953d22f72689e4ed1ea12e44c2cf8fc0c6d28d63c8156d70edec0acc1483107b10ff3dd8e1c56d4806f20243757ecd11a03844e7ea85e8b1817d4550f066fe3a327489c088c9798e268f1586c1c01126b258e96720ef2b4cb194dfc63cee9b03607451f8a47f769ac031e7a902b9d60b7de7212969d1f3745a153d5c62f32d58064422f66b7d76407ad4d6bf7982e553155b20acb1dd793"
+  },
+  {
+    "time": "2026-10-11T10:43:05.607386+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1776,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:43:05.607540+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063a2feb7f6d211d3c5b54fc923578fad93b03ff645745d4ed29585dd6cc94ae9037d32509e64cec0a4f7e108dba147ca2ee87611ee35882ece8898d5ce1bea78886f97fd1950df9a908815397c363798eac111a958706390739ada1f4e8ed446801de6ecac12d5ec37995cce9d0ad899d2"
+  },
+  {
+    "time": "2026-10-11T10:43:06.319316+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 2600,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:43:06.319449+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e206391a41431c9c7d2cf41a458a53c4a67c5b629bf87462b994bd5ff071df19f45213d4a38839c64bb945c29f3d4f5059d157dd1e3aa36492985ff02d7f9faad5e2b2de15b3cea3a7d83c48b8054e0bad89e09b4384d0f219cdefd99878bc4a115e6049e8c08a3b08c9755925f2db001b01d21c44f9a71b9e80a2a36d38c73321c4488aa51b5a7311e62d599cc13ccfbb513"
+  },
+  {
+    "time": "2026-10-11T10:43:06.631264+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1894,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:43:06.631428+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063c9da1b2c501d82488adc88f833da85589fda24339f3a27c4d7ffa00bc26aac6249e087b82191bd5833e743db188df4c8298bb97fa1b7bd539087d9fc0aa6f913ec0c3762441fed05ee43c63d7ffd7e81f8d9bc1720eccc5f2ede59bb54667295fca55ffdd76e297dc5dc9453c82fef9f"
+  },
+  {
+    "time": "2026-10-11T10:43:07.056064+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 2750,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:43:07.056265+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20635028bb5380051046f5f95d6cbc6ed5565a13cf7a3dd81c3f74cd05e78a5893e8d411e93c91351edcb514a7d30c727420e547b85c7343a9c86b18e803e12f2a0ab83f837f3a164acfe7475ad29e49460e26e927bfce0f86ff033d6a637158e5890bb6d0f24a23238c1b4e293a718bfc721133935f0c64cde15f80b4ba090d2f11af63abe6d01adb2e1b5f925705e8e34f60db685f63cd20bf7a05558b9cd9e646"
+  },
+  {
+    "time": "2026-10-11T10:43:09.446444+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 2916,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:43:09.446558+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063ceb90f220631bf1d7fa9981e03830753b13be359c2a5f7c41fd913e05cfae405ff007ec5563a3dfb53eee7232f1cd54782179aed2672c48ef69914853eb554f4efcb03c9c4ead237ddbb14266e618f59d5e3b9c1b95f8960f856510132caf8e0e6ab975dae66ceda3b89e4949cdb19a13f28256066b86099ea2a15b5e86c22578b03f84e8f1fb3155978762d2a073a11"
+  },
+  {
+    "time": "2026-10-11T10:43:09.875105+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "offset": 2012,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:43:09.875264+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e20634a9ef98d488d519a362f47e8142ca9a6491012f98706cf835d87fa5a42050c536bec318a384250fb17c2c5523e0dd464e33a20b81ef1fd7f5b56158d6dc8f91d21c36557e0c481659ad4d693b5c39700a0370f037e9b5db597a2172b801591fad2cffd9f4e749ed307213898b5107512"
+  },
+  {
+    "time": "2026-10-11T10:43:10.000643+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 3066,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:43:10.000771+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20637cc4dc5f7d0b9e29b8d2eb4a7fb6142b28a55c7e0066159aea8e4d78b9566879c3346314ed42c68aa2b3d6578c4a1d5484159d14c0730d2dad97e9717aa136a12f8f43743b45e66512c54ca870e2b216a235ca4b943eb3c4dad4c29883f493618064eaea27f695931238482ed90190618b42dbfefe72acd4c2ab4eba5dfd1d0c289a5a1fb69f87253d342f1afbd37bfb8e32b78cd0c4cb17a1283a3a1e3d16fd"
+  },
+  {
+    "time": "2026-10-11T10:43:16.005190+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 3232,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:43:16.005362+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20638809d963b201f4b0df460f834f73102c649377ac5e9a090081b1de10d3a6c8447b37c2c80c7ed5af1c0cced87f2b9af227350a801a883bd6db5fc8071ba57311824b00d845dc9aa28f1194b0cd607f0dbf686cc587476a48d3654abb5888eb91d16236833473d623c885ec08f63894b7560fccf22edc7cdc246195afd04b1c8539ebde546302ef4d2eb8d094b9730acce00f3eec97c5ad92981dd8a9d67effe7"
+  },
+  {
+    "time": "2026-10-11T10:43:18.067777+00:00",
+    "event": "chunk",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "offset": 3398,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:43:18.067927+00:00",
+    "event": "frame",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063bf25cd7f49f951a49aa58a3f25028223e5b4b8d6d1677f41f3c7582a301e4fc6f176a559ac67e6dffdaf969032524693d212815f8b765d62866ab8754ef92ea69ef5dbf05f800243aac3a67e5abc076cc27da0e16ddc43348c95b2b0a6bc640ab2de116ccfd56178acde8d1cfc4b4852b33824fdfba0a4d756634e9177b88ec310dd96ce52e34d3055fce274621da92b28007db579e08faae2eb0159173d1dc9"
+  },
+  {
+    "time": "2026-10-11T10:43:20.904127+00:00",
+    "event": "eof",
+    "session": "20261011T104256577719Z-1",
+    "direction": "device-to-cloud",
+    "bytes": 3564,
+    "incomplete_frame_bytes": 0
+  },
+  {
+    "time": "2026-10-11T10:43:20.905639+00:00",
+    "event": "closed",
+    "session": "20261011T104256577719Z-1"
+  },
+  {
+    "time": "2026-10-11T10:45:05.464650+00:00",
+    "event": "listening",
+    "bind": "192.168.200.164",
+    "proxy_port": 28443,
+    "http_port": 8080,
+    "https_port": 8443
+  },
+  {
+    "time": "2026-10-11T10:45:07.129732+00:00",
+    "event": "connect",
+    "session": "20261011T104507129696Z-1",
+    "peer": [
+      "192.168.200.1",
+      61251
+    ],
+    "upstream": [
+      "35.71.136.152",
+      28443
+    ]
+  },
+  {
+    "time": "2026-10-11T10:45:07.281492+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 0,
+    "length": 424
+  },
+  {
+    "time": "2026-10-11T10:45:07.281790+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 424,
+    "type": 8,
+    "header": "837001a02008",
+    "hex": "837001a0200800008440daa8588524421284eb51e2d967ac7e55f41e7ac34a0a3ff075b3e5266823a070702740866db194d0a8979ceee543632c22527c659fd81dab8c3637899e943583d7e65ec0f2be12c4199339a5e1eb302d99707b39766accda4b9ae1eb68d9ebf1da591d2dd121b52c49629dbab3ba131fd638750079516ac5576ca79ff0a80946a4ce71e97e9a17db23f15505ab5bbc129102b290235edf121de084354b29fd48032b40eae68f955ae7e47fbc5ca3fea91f13acc4a5200447e0c380f3cc27026d0345fd5ed6377e823f75849acf04ffaf722224f46d2be0d1e6b825922016a45e5068ce6db21ede5def2544d57278fb30b126215c5814dbfc505533625dac87f5be9b7a49b8b84792b776488c572646bda498c016f3ea956a15acd1fab4bc70f7988a26456298ccc0a2aaa9179b39c8593fde6f489023b27d9fc4edc252f76f291cc48ec4ee78a6b9f34de85055331e1d90b82b0aca595fdd8e71847be4f2b7f328dbb815a3471239532e0f831b42f15657fd2ef30fb4cdd529942c2aeca55b3c5a7560e92b151d34b6d76cba9ad354232fd5dde9de6ebabe64f979fb180f"
+  },
+  {
+    "time": "2026-10-11T10:45:07.499907+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "offset": 0,
+    "length": 168
+  },
+  {
+    "time": "2026-10-11T10:45:07.500113+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 168,
+    "type": 1,
+    "header": "837000a02001",
+    "hex": "837000a0200100001d1685a3fb03b0718612487e6cb685003e6254dd941b7c7d69f5e9c382d5d62fe5d8e0eb658bab40066e0a822d5eb6a8a33262962e2faff1c728dd65836b645494c265a6b93f52dae5db0a51b11e01000e9edbb76bb24c12925bc835ced8e6511e8d292a06466bf434b6bf6420ec7cc7677da72d60d9f499d718277b437f705a89aba06f8183dcfca01874c911d7f5ef5b287d0c4d8e7c01b2ea49d690d4f3af"
+  },
+  {
+    "time": "2026-10-11T10:45:08.168697+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 424,
+    "length": 204
+  },
+  {
+    "time": "2026-10-11T10:45:08.168885+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 54,
+    "type": 2,
+    "header": "8370002e20b2",
+    "hex": "8370002e20b2521e5f5e394ab70a67be39729834b0324978824c83b52434204253501f5375e60213f2c3ea3c6f9fec4eec4acd0da913"
+  },
+  {
+    "time": "2026-10-11T10:45:08.169011+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e206383b81a79f787bd9741faeeb1360ea3620400dbe094d2f293638a175397b86780305d7a31593b799234f42851ba5784f33a1031936b8696c702a9bd98f6137d6534751efc9535708035d12d53ee4c7355ac41838d4c5937a19f53c9ba4228cba698aba694d1da0a50546b68fb63d76734e7be181263f19a4a57c983948e0962c8c8c5fbbaffc6770273c852d20f2f8313"
+  },
+  {
+    "time": "2026-10-11T10:45:08.384726+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "offset": 168,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:08.384974+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063a471591b67f9bc5264f6e7dab96254487e226069e2bb3810521ec1f88c1a52a1f9bce390b35019292a693cab11ed6edbddd0279f3106dfa2481e92fe4484efa9e23e1c17b2d530d58d2b0b3a1b314ff599ece02bc24511c003ce9021ead27137edd4c6b08abd4e329f7a906cee623857d7c8fd55be2b71b300ef2d0a3f9e96659f3b2890c0203eba4374f8799d3b9f1a"
+  },
+  {
+    "time": "2026-10-11T10:45:08.419345+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 628,
+    "length": 102
+  },
+  {
+    "time": "2026-10-11T10:45:08.419501+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 102,
+    "type": 3,
+    "header": "8370005e2053",
+    "hex": "8370005e2053f8d73f34c75521dfdd48e022c0cf665153f658c0a0a0f2eb5629e4bc2dbc8fad130be4b0daf3a36cc7d541242b5a9e4ae97f5c8ba81aaee51003129c91daacf0aba26a63fc91354c29b597b9792165dafa26712058cb9e00491a7e1df85dda2d"
+  },
+  {
+    "time": "2026-10-11T10:45:08.691526+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "offset": 318,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:08.691742+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e20633f29b884bb63ce224761842aa1496a91e687682aced12e42cc2972019a8614275f8e0e011b51814322119d504acd434ea7be2a8385099b4eca7ab5fba4572b8f68d8ba38acff21e5f687395531019a71d8f8e01fbe08e9d26d6392c1d9a913fe9f61bffc67b04cf95861b5ab3004bdbf22bf5267adcec8b32e7fd029a80587e1be2c84df9fe4d9b4ee5b754caf170fbb"
+  },
+  {
+    "time": "2026-10-11T10:45:08.705079+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 730,
+    "length": 102
+  },
+  {
+    "time": "2026-10-11T10:45:08.705330+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 102,
+    "type": 3,
+    "header": "8370005e2053",
+    "hex": "8370005e2053ec6110a961e06dbd5ce2e146b0ea5fb6a1c403c3a5b90c7fc17d40a1bd77ea12c1f50134e07276800d9605063155137f07d44278f811cd68c50441d93cb7edad51298e5d526a4b5a0145a0b34433d1a26fb3b85a1e2ab8f0fde712efa1e59f15"
+  },
+  {
+    "time": "2026-10-11T10:45:08.925681+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "offset": 468,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:45:08.925845+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20631e647caed71c39948b1a45f9052654cbb0d40b4e237f109707bf6d5a324cdb9e321ce02d704ad5ab199a635292c3efe72e29784293704ebb658ecb51fab938b06330784e48c91d56b91f7fd7f86972993f3b666679b7725abec95759fe30442a8cbc3cf2b3f60261989328cd49fff5e137dac5f9d5200d4f1f7cc2aebbfe87f34eb020981b1478167c9d8f353e505982a2c9fcc497c7523dffb3a23efc588ff2"
+  },
+  {
+    "time": "2026-10-11T10:45:08.940336+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 832,
+    "length": 134
+  },
+  {
+    "time": "2026-10-11T10:45:08.940502+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 134,
+    "type": 3,
+    "header": "8370007e2063",
+    "hex": "8370007e20630abeb32cd2b24ecf01fa4a3b881fb7651b02142215127759a98a44970cb2604cb69740aab4355c5c4ec02d024c05b3459b9d957d57b725902ff617d9a67cbaa97be9fb255bef6a9e95b425cc8ede48df013adb9428a3945b841b2433537013f87ccb740161c4940a0c7612aef5465c2e17d4a6eb2b180f4ecfbea87000111151"
+  },
+  {
+    "time": "2026-10-11T10:45:08.946261+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 966,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:08.946451+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e20639c3fc9c1cdda0f44d6ff93df2f98027eab184a5ce8eb33fecc404731af4914947c4248c8334c6a53fc08d33b0a2561c2d1a9003c4ea180a7bd1ba290a34b14670c9434d103d487b24a025d568b9f52007659ba9c5fdf6a2ff5e4fc5bc5030bfe414210ec05155ecd4d4d1337f41b05685ff48a203df1d8a85bbbf644b53d28ca5d1e48a968a4fd611860d13f6ab9f806"
+  },
+  {
+    "time": "2026-10-11T10:45:08.953937+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1116,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:45:08.954143+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063c91428928e385f9909df0262675e562c5f36b196a9da718f811c77d6fa4929d7c7b046653f0375f162df6774806a81fba02ef3185b9cfc6067508fc03559be18082284ff9b6099a50327d116c2ae08a4f2272bcdc1b64041f49b46718298b1587e6193d87a17db1d60619f7b8b512ac2529ba043c9891ba1faabc2c55441f63680620f1db1f99a06cceb680390d74a541e0486911a794877d176208f50d4063e"
+  },
+  {
+    "time": "2026-10-11T10:45:08.964330+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1282,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:08.964505+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e206339399ec44aebb0a522026bb4351c4abf5f7c43a2a7ce901700d5429da948f4a29b16fe50222eeb08ea85bcf39a658f436a8e4020c6594b9a835bdb5fb30649787b30de2753cca16954db6601d089077afcd637cdd56fe18459d32f5518130de6f56f5fc5d8b0bd0528a099ae6a8acbd3"
+  },
+  {
+    "time": "2026-10-11T10:45:09.054527+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1400,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:09.054692+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e20630275f2bb798b031577a722527f94135c361fee3d34c7653f6955ccaac485cea96dc02cc4523079c3ce54147cd26b18b5b8eda327009bf22d0709abed44d2cdc471bf0a5ebdb6ba013cae9bac476f6cd5d1b12cde17b94812d140af74b514f1e0b125e81327512a8ef5078042bf1ac5c2"
+  },
+  {
+    "time": "2026-10-11T10:45:09.217727+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "offset": 634,
+    "length": 300
+  },
+  {
+    "time": "2026-10-11T10:45:09.218071+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 182,
+    "type": 3,
+    "header": "837000ae2063",
+    "hex": "837000ae2063ff61cb5efadae0b772a1f854ab47e43e005ed2239b67d0b93e38e38970f10760f2729220e2c4fd22f883661c42f7a236e4071ea21bd765aa002234f85122051131a16a797503621c91dc41fed5088082d579ce8e624f2718f5d4d74bba55b9851fac727c13e68f1f541fe8843f059ffb2e402d8a045d1fc49006d3eba04073897cbf8cc6b58c026d8686b2169a0df4846289b1efaff491e6b4fdad3b35c811d45247430358f2ab64b3914a0351b47b6b"
+  },
+  {
+    "time": "2026-10-11T10:45:09.218330+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063bd229505f4f73c655621ec20aca8bdaa48f15054c3655219504a7fbb4c4608fb7e83fb72f498232f7382ba85bb32795f7b576e7aeec98d8d2f320cd5948bc24c5993ed92606408ffffad054e652b7d0516d3bf2cde89580ea008598317e9f7206569dc2175c3f820ee9f1c2e67af7def"
+  },
+  {
+    "time": "2026-10-11T10:45:09.223407+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "offset": 934,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:09.223520+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063d22a0b54f187d5e3521521ea29efd9a6bdd62b4c71309db943087ec005faa1b087237d842ef6f2b7da52f9a717655c1a09e658bd419d7280d8bd8e5262fb11a97c173741145c1b58903b47cb529dff3b56dffdbe96b53fc5173a91f4a1201d4da8231c8a115361b3825519c98f696a29"
+  },
+  {
+    "time": "2026-10-11T10:45:09.259686+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1518,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:09.259923+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e20633bf7e47269eace72d4063d582d71713dedf578f1f337442a1e898585e9dcc07c5f5309177742e86f3ea0c185320b1b3eebae944c81e8d15d98fbeb98c4b277e444e0060e72780a2af193813ab62300cba89a624d50f01ab3f1081a8e51668bf07f55ed0c11f0eec2dde3e351a3d048a2"
+  },
+  {
+    "time": "2026-10-11T10:45:09.260192+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1052,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:09.260270+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063a2d28e2be6dd5c0510a62330d402c89922317307f169f50ba58588e74c7e043dac067be9775e84c7cac5cd4e87d809b8fcc401b11819103908fe23d698c12b1148712584afa9a3ae862a0f6c00483cac6a562048f64f4ecf64b0587b376f5779ad66c4b9f60ebbe03f9387407a8f284a"
+  },
+  {
+    "time": "2026-10-11T10:45:09.267416+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1170,
+    "length": 134
+  },
+  {
+    "time": "2026-10-11T10:45:09.267521+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 134,
+    "type": 3,
+    "header": "8370007e2063",
+    "hex": "8370007e2063b9703c3a73a82d581cd4d8f5a662417a80e46241af8121fea6cef3a5a7e26c5c81c099216a969c70234e971377fbf9b245e52dcc62aa4806b9668cd0bc094c992533f93a313085cf9c6d273add4727f98c0d2368fb151c911eda8fb44de4415c0b68d32475c02c6665f40c2bede254bb425da5b7c7059c431ab766843d3e31d1"
+  },
+  {
+    "time": "2026-10-11T10:45:09.291394+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1636,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:09.291539+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063c2a3f31623a80443089188969f986292c0f673d0c1a3f2557fffc0f21948e938528bb4d65f13615987ba69b6e50b334a40c9b94ed692e6ddcc67fa3b852a9073735c336a3df982698dcd85e6224d45ad971cc202fac2b72689fea9e0445d1e6db7a7a0b568e38f9a90164faf72d7799f49c7fb57235036b686f0f979cd6d8c8aa2fbca156f13bca93b7a77c83798fb61"
+  },
+  {
+    "time": "2026-10-11T10:45:09.529598+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1304,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:09.529846+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063fd036352e1915a0e143ecf2803d67997533ab554a59445bf3bc4d7a1067aa1387797277f2556dbbd8c96da8c7a97d09e4e6e9cabdfcaa20d06381aeb0781bbd0b7926a7f3030b4bce63c9c41924fc2a69c34df4222ddd6e9e08e2c60bce6a0d85b1a6f06d752884d938edcac0ae36bad"
+  },
+  {
+    "time": "2026-10-11T10:45:09.571318+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1422,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:09.571532+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e206300dfe3d52d572d9444559d1936b13d4256d4473a5e9a76238a68dced2f00ce34601fa1b5d15f9c5d0b20279718ca9cd7f12db003f393040b77d1a83c6e274fdddcd871a8f183143a084e64e9fe8c24296ca64f76e22b95211614aad0cda7f1917b0fb3c60ca31c130c18f0a26b119e83"
+  },
+  {
+    "time": "2026-10-11T10:45:09.577005+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1540,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:09.577291+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063a9d79a19cbae123ca369bb2c2fac9d7b0f712d8fcfdffba6b97eae682e8d18232a761e9684ae0bc3c1d98092d59bc018c0ea7f185fbb16ffd99151137343fbd700fd9f5497a8b17f084654b9380ef1994746e057f03e979485cd547b9308c00067c82eb88ddfdd05c04130eee0741e1b"
+  },
+  {
+    "time": "2026-10-11T10:45:09.598337+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1786,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:09.598501+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e20636a103fd553625f41f90deed33a5b6468e816b1cb6bc01472c28ed02f83fd4c721faf2af83dd93e599120e8f99c8b5a64b04eb6e9c1196d80edbf761d461edd0e1a45fd32000ee908166d7a1ca76eb4b1697236ee8ae1c8e4d0cc12d53b8d1df46a4b8657a52d3090f0b5c03f598fb7d49ee56477737c9f4349b3a83a356e2bf9f8370f0c185037509d1805eff0baef15"
+  },
+  {
+    "time": "2026-10-11T10:45:09.742122+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 1936,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:45:09.742353+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20639d21d0403152bc3c9bbcd899d2432637e58422bc1955096081bec878bd961676c32536f1ca74af711ea1648d324fc293a2b3015f752a6222c8743a76e21fe548ce41652b40432a703488f419fb90878cc8c207703ae79fb8e9c2d8b6f5bdeda17689ffcba6bded9f76cb80c58049ea709f3a59ba596e81fbda4a8c924cf4da974c12ebd8a18ca5c268a0638e4334366c5223e38fc349036069bdfa63d9c16893"
+  },
+  {
+    "time": "2026-10-11T10:45:09.880309+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1658,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:09.880425+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e206338ac059c5c65ba725a3b471c082ac62e00af2f2d5a68fc8af41fdaf6de9d097a5bff266c4ba13c7f5995559f12140ebc984fd20628a7e4e5ef316d479764d03ed9a94547f7e40f4d66b89033c6e4581f24c2b84a671d03087119962ac19567dbfdc9c0b4df1c305f8837408699ddca54"
+  },
+  {
+    "time": "2026-10-11T10:45:09.896363+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 2102,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:09.896670+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e20639ff458e4b03bed09e6cf9bb7d295fca1a02532f00448d3e405bec6f84ea65527602892c8b67248783f1a9823deb40ac20aab099c5c1fd755b93b54052e288803917f4de4a114b598c8854a0c5c4088cc5ea2990ab3eb404ec2bf9427c56bc58b71c1eb5ec20936ed5a55c62319df459a"
+  },
+  {
+    "time": "2026-10-11T10:45:12.076269+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "offset": 2220,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:45:12.076526+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e206324fa917dca95a98787c26c64e137cf5a79150c3716d54aaf877ad4fae9d91a27329cee42bee8da80dbf3bfcbbbe3ba7906713727cccbec55b8f780222da0876de00256c1b1366f0f52b57fa71e4d682045d16aff55aa0718a5ad171e47a23b70262afdb1a02da62820b7d4c4c40ac6471c1d8adf8713472502d4e77c3a496dbbc50b53ae159d36b46f5c5afb09ee483049afe19a395562361805cf16c4c04c39"
+  },
+  {
+    "time": "2026-10-11T10:45:12.362432+00:00",
+    "event": "chunk",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "offset": 1776,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:12.362614+00:00",
+    "event": "frame",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e20634f4d7c304835f33e52e8d408a232cd75ae68e96aeb68b59d252c5299a547a01b6693299767b89308311515941d8dfa2965d2af42ce82190fe1726d45142763ed4908d385647a832e384f20ecf4d97c282bdb5c647177be54977c265ef7c825b9992b359b80a5316a27aebf656f57fa4d"
+  },
+  {
+    "time": "2026-10-11T10:45:26.797033+00:00",
+    "event": "connect",
+    "session": "20261011T104526796986Z-2",
+    "peer": [
+      "192.168.200.1",
+      52233
+    ],
+    "upstream": [
+      "35.71.136.152",
+      28443
+    ]
+  },
+  {
+    "time": "2026-10-11T10:45:26.945518+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 0,
+    "length": 424
+  },
+  {
+    "time": "2026-10-11T10:45:26.945713+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 424,
+    "type": 8,
+    "header": "837001a02008",
+    "hex": "837001a0200800009725af4750fa86a72c449270a1ecfd257c0d2b21f44f6d9479a8be104165f009d0cf6b18c60495bfa69e2b909f6c4d8b4ff985acd1195ac19b6af0027b5cca7b0629c52b08abd791d89117ce5168316a629302e1d4418476eef2e846977323de11f87db6888395c01770b7795968e0c545dc839f129898743e4a2914d108a2e76377e5598b6edda0f1dd0d87fba5d1f34189ce1ed8fac7d38cdda748fe48a188f2963290b0d915c4d534f7319201b30b8de0a0a89da05db9e040f4410cc7cf3d9b83cf9d0fb0e3154b7c6f736d48a7da5f472cf50ac2356f8919220a831ecca2d6e0b9bb24bc046611669a10b7fd3651d8d4fd51f407c9e9edfb7df13e139e9587f5be9b7a49b8b84792b776488c572646bda498c016f3ea956a15acd1fab4bc70f7988a26456298ccc0a2aaa9179b39c8593fde6f489023b27d9fc4edc252f76f291cc48ec4ee78a6b9f34de85055331e1d90b82b0aca595fdd8e71847be4f2b7f328dbb815a3471239532e0f831b42f15657fd2ef30fb4cdd529942c2aeca56dea9c37b037107c9237df3b9ef83aa3b297ed12c861965b4d644762a3d8ecf8"
+  },
+  {
+    "time": "2026-10-11T10:45:27.164537+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 0,
+    "length": 168
+  },
+  {
+    "time": "2026-10-11T10:45:27.164701+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 168,
+    "type": 1,
+    "header": "837000a02001",
+    "hex": "837000a02001000079225e90215cafa0ce4056d450855860b8c514757080ce9045991c06bfcdd8d4d4d03d2cc8dd24d897aee6cfa757015800558c740ceca1f847f82e70a1024ce3ec4abe3971cc9e09cc4e9470cecaec5372b19340db45533b4b78bbc77c3d88708e9528a2de1e5f3d63fe2e6c7679f76c21bd451a7b05314dae1b2187a9c3ace65debd302e136616b18a62f24e1ef42f8286ed2c4ce36b13b829d21fca59302d8"
+  },
+  {
+    "time": "2026-10-11T10:45:27.705362+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 424,
+    "length": 54
+  },
+  {
+    "time": "2026-10-11T10:45:27.706134+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 54,
+    "type": 2,
+    "header": "8370002e20b2",
+    "hex": "8370002e20b22cdf9cf1e73fe1d5b241393c19ef20750fba9b2d6194fa17837ea1c16707efe9c6e730be8a9d184651fcdffcdff1e689"
+  },
+  {
+    "time": "2026-10-11T10:45:27.710492+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 478,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:27.710753+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063f9cb988027ee7095652b4845a75e166e2ed2a756e256df9da31500267132bb89006752849afe6be9976af88cd55853f452bd28548869ed63f5897e965caa5a8075bce9ac8192406a5a4a133fdcf3aa3044e030ca5a60098022051f82738ffe75631c3da60f9e7d4da0768869ab758783d48de822c7fc946c753f96955d8451d952620c741b91063d3b035ba2f73f8bad"
+  },
+  {
+    "time": "2026-10-11T10:45:27.927324+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 168,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:27.927551+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e206300b0f88a9167a3a45c53c2d01a3906a473c023c165dc697b2c08f524fe0942965c6d859b775be32450794de45cb0d8e03679e59c239627471f69d97039820c76c1388b3cb1e55c04dd6e8fb1d29c7f42b25407f18f465fb54955134a19e898622d21988516b294c14704ced9bebb9afecda7757f155914b9f1bee21185f73ff9751bead2b83ee154065f2cfcefbc3554"
+  },
+  {
+    "time": "2026-10-11T10:45:27.945302+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 628,
+    "length": 102
+  },
+  {
+    "time": "2026-10-11T10:45:27.945767+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 102,
+    "type": 3,
+    "header": "8370005e2053",
+    "hex": "8370005e2053712092911aae7d014d8ed676416b78451d4c7c9fb56edb407c77c80b0e62d9f2fdfa2b98eccf421372cdc6c808b3ef67977b64cd8f43b82aa47fd9046486f561073081e54712d77994c69b00529d6614d4b77d525a0066c1a4e72eebb9e46146"
+  },
+  {
+    "time": "2026-10-11T10:45:28.160879+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 318,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:28.161240+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e20636b4bd948e86bf9a5c367ddead46ee1aa24107ef562e1e5ec377a3d81c50083f48e7fc1ecd5e46e500c21e2c9ca95481823017aa52abf69b331245b50f9fcdf946d0d16e927d1f7881ca3aea3d48c8f642327f775bcebc6e458b712a7ebdb4f54f7d299d81df23536bb1fab40c565c36bb0b7d9ce87145814f66eaeb3037ff3e6afe48dd8d31903e658b05232fec17d11"
+  },
+  {
+    "time": "2026-10-11T10:45:28.179054+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 730,
+    "length": 102
+  },
+  {
+    "time": "2026-10-11T10:45:28.179340+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 102,
+    "type": 3,
+    "header": "8370005e2053",
+    "hex": "8370005e2053734e5b6df93d5d58f0aa063a73c99b886dce34c9e1c2f94a48e51e829b5a5148a6af09a2cbe48c166424ee84840d238a74afdfd719645d805beae6d8ff45629a355283fba4874890a6a3fbe9ad1045b00ca6c349ea8fc101eab1c3040ade08c4"
+  },
+  {
+    "time": "2026-10-11T10:45:28.399667+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 468,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:45:28.399789+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063c251353c240520e46b1805ce19bf0d15293667e52548813a112231d689f0cbadb9b6a96d80f5f4d4944b3c81acfee8ae9104da0ab113c2e900623811d979e2716e9455bd4017bfda23cd45886be654e148aa289382852374f7c41cfacf54c232111038b85e009832cc85a37097258c939166569a5c85d87944da5cfca93b72daeb94760682917e1737ab9fe575dbea05b16c970fc8515ac46b7a69dcf6b3a102"
+  },
+  {
+    "time": "2026-10-11T10:45:28.416284+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 832,
+    "length": 134
+  },
+  {
+    "time": "2026-10-11T10:45:28.416445+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 134,
+    "type": 3,
+    "header": "8370007e2063",
+    "hex": "8370007e206380460e773f2ada7a27e6f4f6a64ee86817531047624e251691348a63294895bcb87b7cab85b926b1d83a0922ffea88bf1f02d5418bd3efc9ad437b079ecac0f9605210d16d97379c547c53c38c1a420735f76bbeb5ac9fc12b530030d756c61e3c49727d5ce7fdebee82d81d63479affd0dba1b1f5721520dcd77f51806a36a6"
+  },
+  {
+    "time": "2026-10-11T10:45:28.418946+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 966,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:28.419047+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063b2acda806ad0001fd56e07c5e2ff5b60a7ed663f1088607352c009f483bbe06e8cce1e9b694a928e5453cf5fd768aa83d2c8bdaa43571132cf849cd5116d74e66f78c22f37cff31bcc87a94d98ddf559e697342298d434553a412f94129c625c3047fa5fd3078117346195089268016bc5ff53b55158f6477d54ac97c7f5196df8c4a855177d367c55c081a0805b0b9f"
+  },
+  {
+    "time": "2026-10-11T10:45:28.423474+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 1116,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:45:28.423588+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20633bd0870d6dc8f89f336d86214f939d18d2359e38fbe9b109aa49b7daa9bd414d6742083c679549d7475de0f502332323ea4af2e04258512778d31966b6c611cd81ca57ffb19d3a8aa3764e40b88fd75367ad94f3d84c3cd176f14edb2576fb146066690bcaf1cfc3c32b80b4c192d9e391defde20bb64d6f0f2f7b48ec3a7110365435e0726e58c7554ff7ed1fdb0cbce6ccd27703049eb188f6cef1b3f018d5"
+  },
+  {
+    "time": "2026-10-11T10:45:28.614265+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 1282,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:28.614462+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e206369eb402c27c18920e3f4723215e8e799d6934dd8cd1ff1465f63f34be9fd2c02abfe770edbdff4e41297c929356d08ad47212f967dd832654fa8fad285d8a11655bcbba0b7e7d3e512910ba2424480f4399deaa0815b9054fa0a1fe10cf2e312dacece6badaf8c535e6460e4b1e912db"
+  },
+  {
+    "time": "2026-10-11T10:45:28.644841+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 634,
+    "length": 300
+  },
+  {
+    "time": "2026-10-11T10:45:28.644946+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 182,
+    "type": 3,
+    "header": "837000ae2063",
+    "hex": "837000ae20636679375860ffbe3fa8173180c3002a6e5cea827bacadf34f76e29f9d93f1a94fe70291afa9bb11b5ab0e835a4a52fd6fe6f8375bcb41a3ab2c189ed7ad79aac9b970b8ac7407f353ba51ec649bd2985fd7f902b0c359bf17453fe1042a18916bdf76bc025d78032df32e0d300f5a4c392699d04fc54ae511e222ae42966c2889439e16aa52ce66f51e2498b94186d7c957ba5d305aed2c7a3be5d4836fc8223d1ad7f1eb959b4c7cf25529bf76432780"
+  },
+  {
+    "time": "2026-10-11T10:45:28.644990+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063d3346bd54c49abf3e1bcc10e87a8dcd5ea7b4ca90bbb248800b1f2c687347803ca213b20e28582c40920f5d25025fae0b982acede8dfd960ec45393ae2955e80a49c57d7445a1b4b3dd6ea1bd4abf47f10b76546bf273702677cd6fbf9c8edab7a796a3c2ec5e4dda214fa0972931b30"
+  },
+  {
+    "time": "2026-10-11T10:45:28.666065+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 1400,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:28.666171+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e206367e3bbee37e1d7ab6039390456245ffde8edc8755576333d77abf5da4a1654da6ee2cdb65f26536c169197606d4e60aa918fd13afd47de1ea8c8e26490266b6a02f94248e95b47d3a01d6a82844cab1c496a1404c203431525beef4f1c68181e072c37393df6c9de1646046736c29c49"
+  },
+  {
+    "time": "2026-10-11T10:45:28.685040+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 934,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:28.685199+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e20638b19539e1c2e61dae8782238c4c144284e3a57583118c3a0f71e92465dd4d00ff7568da1860aa65b69a05633dca38c2fe43e035c13ae9972f01118e8facc0b7e56dcecc1ceee449d2c4bf993be4f089c6e97e130370b15308d899694fcffea88cc854c31c5d79ea32ebf76970b32ccfe"
+  },
+  {
+    "time": "2026-10-11T10:45:28.712571+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 1518,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:28.712789+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063bfdf7fc9bc24f73696d350185cff6b12101ac3e0c27a4e3273a246c5a2c673442c06986d997ccffb76278c720b308903bd7c72205fefd46821f9839967402c4a6da167cf3bbb7411f3364ca829dafb264fcc29de26e9eed6cecb1aef752f46d4bd4c02c0b4f8ea1314ed9a527ac7537f63ffe741ab7c0976d43f2b498b2b8c25d5d291dd0ee5e571ece5a02118dc04ac"
+  },
+  {
+    "time": "2026-10-11T10:45:28.829182+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 1052,
+    "length": 134
+  },
+  {
+    "time": "2026-10-11T10:45:28.829271+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 134,
+    "type": 3,
+    "header": "8370007e2063",
+    "hex": "8370007e2063e8e7623792ebea89725393475ce270feeff543adc9990b5f4ac664ebe0a9b72c8018eb501a5d5f4d9ca3bf3862033163e7a4796becdf15a2f2746619ecf8fa81deabc3f9646ed61fd96854978cbe761a688fb4a229325e305dd88724ffc8de9b5ee06384ad449e1d8a103c947263a9de303fce55bc11e52e86b2241093a9ada1"
+  },
+  {
+    "time": "2026-10-11T10:45:28.970004+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 1186,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:28.970121+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063864546786c5f77c8ae474476dd5df13b3c6379c57931156a3d09d52f87150e332362748045bfcc0727887bcee8f6a2e5fdd8ed0bde8e79636094f77d419e4ea2f96a30a9530fee56e4c4827debd257222168fa64b9b0d31f72d274d7206147a618b661cdab5e77f0121b70c9619de2d5"
+  },
+  {
+    "time": "2026-10-11T10:45:29.008424+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 1304,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:29.008545+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e20637313fc0ee05731e706d9a1aea80a1c7a6b3521c53a31efd456d47dcc67b1de634fa5d4ec70f97897a2b8371a2aed874efdd5d148e59354efcc9f1ba89443ccfa3bd9c9c972403365a23a9a049d071eae5960fb064fc0b98e551eafbcd3c6c9b7b897f6d9384b3be9e8d9ed7f50adfd68"
+  },
+  {
+    "time": "2026-10-11T10:45:29.139214+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 1668,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:45:29.139388+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063ff70534a51c0cddbc1248fd1fdfcebe30f4f17666887bf47dd13d80542b34ee6df80d39c0caa287eae205fec0004542a7a532d248008a299b760518fe3060a18f661bf905e16a5f0826d071b71e54b86604264da4852ff18f1e0e0cdf995a736c45676e323771f4213ac10834dce1136fe490f98bedec99edebd6e99ad577a3261e8c74a1d74373b3c8e2c48c2c53340781101fa46e7a61b637481e30d9994ed"
+  },
+  {
+    "time": "2026-10-11T10:45:30.187497+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 1834,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:45:30.187716+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063b5f9cd5b112392f079c601b6deabeb8364bc93256d2fa471eb35ca595b8501a992d21acfba476f339297397e5c507f5b77a7e97b1df5cc7d21614ad354d22f9a77b1677d49b991ef5dec6e26d06045c815f08398a0e5a07e8711f103f0bbf942ff163a23716edc4205fa0e53b6d6551ed13b02a19969d3258bcc5be73a5ebbb18322308974bf687ee77c8b569bd3a146c704e0d4250ad51ad64461da8de723b5"
+  },
+  {
+    "time": "2026-10-11T10:45:31.052890+00:00",
+    "event": "eof",
+    "session": "20261011T104507129696Z-1",
+    "direction": "cloud-to-device",
+    "bytes": 1894,
+    "incomplete_frame_bytes": 0
+  },
+  {
+    "time": "2026-10-11T10:45:31.063283+00:00",
+    "event": "error",
+    "session": "20261011T104507129696Z-1",
+    "error": "[Errno 54] Connection reset by peer"
+  },
+  {
+    "time": "2026-10-11T10:45:31.063728+00:00",
+    "event": "closed",
+    "session": "20261011T104507129696Z-1"
+  },
+  {
+    "time": "2026-10-11T10:45:31.640673+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 2000,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:45:31.640975+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063327c1fcb8bd857ff5a502ec523afd3df275878392c1423fd17caf3e1d33d9bbce97aec53425b6948b86ddc3ab6046f46dd9ca19a9032bbb6f1128e0881fe4cc853705c639688dc3be365bd82e4f50cfb8f6f8337dbc43702cd0940f92752c89df520c4e3475efd0d7047965eb33b2ebefc947af7c3d3f46f0c2d237ac89066597fd88c8c2a9c3feded05403bb24ab97e5a3b70803347bef0efdac74fd43022b2"
+  },
+  {
+    "time": "2026-10-11T10:45:31.949766+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 1422,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:31.949976+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063e2d7e0b32969e8c5e8dfb7a4b7ab531d354903b61d53da2dbafa6e64acf7f2f88d2194b97008fe7c2cc8447998c60f71e1cf41a36e74a349bda344544d9f09f2fbb8aaa5763c86cfdf5f99cffe4d3c600bb6654589128947db1486b4a9da504b074ed1e091bc3db72b26c71e52519f1a"
+  },
+  {
+    "time": "2026-10-11T10:45:36.543538+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 2166,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:36.543709+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063d2b1a2fe922bd3babbb12abe08ca75e7e324a7003955b331a3ba19c72db74b5948e1ed8a6a58c592d0d7310fca16c3b615b31ceb941c5ade3315b3138c547c067bd86eeb2e487ced9314c4ef68eb6c0356c7b8c8253db960940da139fb9dc595c583008a571f5baff7a87b08a66aabc25ede1fc34f713b27977cf1fc18f9a857b2d046f6148f89178b65f7646508594c"
+  },
+  {
+    "time": "2026-10-11T10:45:36.823883+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 1540,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:36.824037+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e206322f20d309eb0ec5d3c0ec33713358f586486610a8519a02cf49be4ebd16d7404d9fe22d6669703d8f8bdab37c9d980230601bb24512322ba44b82f8a3d92ea0aa7a03eeb0047719a98cc6b9d0546869135b8aa4648fece69b98efdc2e9608d23228c5af2eadbae4cac7b7b9d3bc9b463"
+  },
+  {
+    "time": "2026-10-11T10:45:37.127032+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 2316,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:37.127171+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e20639ae2c59071a0e8417c1754d845481f017d5dcc1a35e77b8c44b15e63b7c340a9b1e8ab050a62896462e23411ab4903ed6dae510e235b3dc549b10b72e288216ca92443a65e4d2eb8885e6469a007eccf9924392787f64d48224975bfc8f8427515d2893dbf0865fb1b8183ef9a1255270fb10a866c10b042e2e55526b550da3dda3b715c8e3886b4da4e77c8297e036f"
+  },
+  {
+    "time": "2026-10-11T10:45:37.424133+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 1658,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:37.424320+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e20635b6d90eb2b51707e6187579b15f8acf423dcc32818ac305a10520db005b93d93a372ab2826e94e839d0f05954d66b9ddc918a01ec3a827022ff2843509ee60029b1d72084feffb2eba2441f93d04092c5b76ca72148fdf7407648ecf1916ad1069f4aa93c8c7120ae73cef78647c45f6"
+  },
+  {
+    "time": "2026-10-11T10:45:45.096408+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 2466,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:45.096515+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063c01091367d762c80c39b697783f5ff52cf2a3155399929e666449eb7579d986478855a0865c4656792c3c7434274525b868a472972b3bff19bb439f404ca08f68ade32b03838789de099e8533eb9dd297f4082af3ec1e450995e0322c05793afe98f56f5dddc6974fe758d877929d83c04accf115660838806c2bd63c5cd329b8ba8bb29a00be24be6137347cab3c8d9"
+  },
+  {
+    "time": "2026-10-11T10:45:45.396507+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 1776,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:45.396814+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063215cfd2ec2993c63e58ecc37331b352c6e909bdc783539e5153802796879ad14db75e74460f07c0e9d579d4f056b1e9851b1558dd2457037565cddde42b1353bb352bb9c2f92856f6ce65dfee5b496ce5765ecf3c49a6e644790a3ef1715d74a68e56b01d7b16301430650a50dba5785"
+  },
+  {
+    "time": "2026-10-11T10:45:53.453273+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 2616,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:45:53.453467+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e2063d8d9aefa4843de3138df744a4dd8d630ab621df258f8391287d7565d8b64c053763cbc40c282a653f72ee944c4efb29972710adebfaee1e362253f2682a2160345064a8823d1904ce3054fb0f9dcabf72ff2b2b5f30adfd77456160a8112598e813c8cbb8033b880a764672a97784e40913b4673474d231a8b1b8e7fa606b4787fa6a1ec7ccb9f085dbc7399a1c64cc0"
+  },
+  {
+    "time": "2026-10-11T10:45:53.780859+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 1894,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:53.781019+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e2063b8eb1af52e63a9b912e45629ad8b8ede505b45f51e541194608c81498149486dd3336839d9a0bcfbe7f325a7e0889311e3759eca17faa9af998555dc14503641556194f9301418452e2e5bd9b5e7fe4dedb481f812a91d892cb019c29620a1fab00c66aa85fd2fc0df5affe854f52a28"
+  },
+  {
+    "time": "2026-10-11T10:45:56.166010+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 2766,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:45:56.166264+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e206307788a31b5e2d1b5f16ad88c10d3b6118e7bba20183039e990f94fed3330f6e377c26f3cc0f7ccf16c299d18a7b26245e0467f6ce66aeb1d88f06dfb0dd1eb04dd5011e4020adc98cbe52e95b191f55c9d9bb8221183aad119cebe0792b8801dc7102f817e5b116e3d303a098b0befb91e8f36629e15bc613f9d285d067b9ad956a242d915797f2560603cf8ef84cae5f6e27f77edb8e77e3c078eb1fd4c4e17"
+  },
+  {
+    "time": "2026-10-11T10:45:58.256666+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 2932,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:45:58.256779+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e206336f09ff3e86c66f6f14291b119c66f87528a1f18d3b0e2a46e2517e9cb5d995c73a633e29b787e7f13dbeea394b822fab4ae1aedc36c8af039d915356920b0b436d00708ebbed068eca6e664230a1b0c545531b9a4a2fdf219d4b643112af21e0cea5357d478984185713bd733cd9893090017c431cec516ae47ac8df620c8075786c5c0e26df6acaedfd5e6de797191368dec7110a68fdbbf586b611108d45a"
+  },
+  {
+    "time": "2026-10-11T10:45:58.498235+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 3098,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:45:58.498374+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e20638ab6c4930ba5e811633c2bb88f35d70a6b24605404c3319d214a9e79642e1a9268cc0a2106cda7fc786c62a20973eb9e9056b1c773552e2a7ac846211b813366576973dbebb852a24eb848427bd4cd20b4a1a205726104657e4be2a45246d9491625072982c5df94ba74436255d68d90"
+  },
+  {
+    "time": "2026-10-11T10:45:58.713142+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 2012,
+    "length": 134
+  },
+  {
+    "time": "2026-10-11T10:45:58.713303+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 134,
+    "type": 3,
+    "header": "8370007e2063",
+    "hex": "8370007e20632fb0728adc2a5d025ef68ba1244b9f4b4e278198e21b57cc10a2630cc2dd6e917c59dc55dde512d3144b266af43277747f7fc5fa0c56ce03b775ef9e97d3d18f0adf4aead2dbbbc8a1c489ba1583057ae5bd162aeb30a2cb995b1b831bd9a8c98deda7de3bf9ce4d305d97a6e84c1428e67b4d090615bd266eca33308af32251"
+  },
+  {
+    "time": "2026-10-11T10:45:58.745506+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 2146,
+    "length": 134
+  },
+  {
+    "time": "2026-10-11T10:45:58.745616+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 134,
+    "type": 3,
+    "header": "8370007e2063",
+    "hex": "8370007e2063670b9807b609beb5f2dc24a960d59afcd4ca40b2164460119f74342ba0d15c3983a1f8d8b55ba1e8bb1351dba5df6d4dfd155d2046c93331478415c90c65c6412a6451ffe9769134943a24d301f6dfd7825997f354dea7e089297e104e85cf9719c41eaea5f6e494270009d97fff0e668a76ae25a3168372e31a747fd33b8e9a"
+  },
+  {
+    "time": "2026-10-11T10:45:59.022860+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 3216,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:45:59.023061+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063d870fd7ce625bd1418dafa70eee70c95b492ad868608b8fa029f3d11c171957edb1dab88baf0b30dad5bc258db0291f839ec4c7e95295325acbfce459309eff714e3f9efb9808f5c229f26afb25e3cf474d21fb00dcd8e41cd44aa99168813004b8275715aad5b742007dc879f23215df8b1b13dbb5d072bf17e6e0f2661eba46f5b77cf25215e6f82588826574412486d1ab0832d59e5560b6e916d456255dd"
+  },
+  {
+    "time": "2026-10-11T10:45:59.225546+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 3382,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:45:59.225727+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20633a841149182f4c6649ef5a3058c750a625e20fd06d828f20e6da2e7dadd52d84c52ebc707a542e4f39a9dd4b3e2f4e0af2857fd2dcd4722dc30a67a28cbe531d8f7fd257d609a6ccca7e919f47896bfbafe8521ab14df404e76623045a616259d395e115740cf0e2450fbc198bf075636009071e5e2d83e652b694b71bd46aa24dbe23a0d1aa6e030ce77f91a07158ea66dab74f10d3f16f9e6168a5becd7417"
+  },
+  {
+    "time": "2026-10-11T10:46:01.140452+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 3548,
+    "length": 150
+  },
+  {
+    "time": "2026-10-11T10:46:01.140706+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 150,
+    "type": 3,
+    "header": "8370008e2063",
+    "hex": "8370008e20633f68a43dfb6b7719df9ee77d494c1d1fbc16a4e66a8657e5271a9e6370a5e1164738f0e03ce7b0a1fe5d27a9b368a02afacc8e5b58a62d8052b88d9c825bf0b0bebf9595078024955dce6dc56b84785e943f4f490d05f5eceff9faf0018405cd97a59d0a3729775b2f46b2e11216ca72a2db7e82b14af7ce99b4bbbe9c3f885123f79bc9dc2f51ebf2c93f71b71cac63"
+  },
+  {
+    "time": "2026-10-11T10:46:01.229196+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 3698,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:01.229399+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e206321b932a69399aef0aa259aca9d2378d8a087e89c3515112dd8433f00b1f9b1ec642e12102ab144d05b1c83f56afd05714065fb0ba52c4f7d203f769be74a5bac1c4db488ec778afea357cace0f60d76313dc93f2d985a6d3b3305bbbd132abc9abb50a4fc11f26a8bac74478e3580c7f9ba95bff851a22113017dbab7cbf3247df321ac23399a8d02c3fff9d714ec4db7398f2fcddae508a983dab8bf93811ff"
+  },
+  {
+    "time": "2026-10-11T10:46:01.423837+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 2280,
+    "length": 118
+  },
+  {
+    "time": "2026-10-11T10:46:01.423955+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 118,
+    "type": 3,
+    "header": "8370006e2063",
+    "hex": "8370006e20633e25731989ca4fa9ba99412245d7c465e85ed98ce4ebf917c95af6b7dbdbf635ab626b2cfc2277e67ebbabb026f390cae3c8127527fe1397b9ba83cd4893cc99ef9c10321e72f818681c1df3cd8684c45f1120ffea345973881e61163bb91a3c617850e6baae91c9e055cd9896be80ff"
+  },
+  {
+    "time": "2026-10-11T10:46:02.228217+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 3864,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:02.228345+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20636e1743fab3e00a962663d946823a5895038800287ad262de04fe0b2c549b30e8a59d9ccbba964837659e5b0946520b44306d284ac65e6bff333ecf6fd61f4ffe90cbb1e63f0d74a8938005e768fb21d63f947a7959ed4db69137fe1e145216dfa8bececcf6fb35af2b88cdfe8d36bcdae263b0547ec0c77c56a937111a76d8fbabb9f61ae9f53e79213e971cc97b4562ed6adedc28f141e93536ea334bbd1c6d"
+  },
+  {
+    "time": "2026-10-11T10:46:03.263012+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 4030,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:03.263201+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20639ccccf4a58d03503856823fdc3e4b945c0cb0bab5cfa39cf79c03b48227c8a5e0e21cce0a02b4f280bb95828024a007381eb8b832e2c615148c75b98e7e93b2a4641f225f001b6899d989f2d0ef96adb8650bf9ef3814c4f03f87083a5571e0f9f29e2e12b410f72a3f442770c4a8b44f2fe77cee63af198b7655cf7ecb61d6c4c49f2edf29d59ec2c5ede1115f99f0d2281b41fbabc0f9a4534cf2191c1736a"
+  },
+  {
+    "time": "2026-10-11T10:46:05.197355+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 4196,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:05.197499+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20636e94e94587a026c5aac286e851093a5beb4275911fbf5a0fc2ec2a52f1b88fd57bef98387c7abb918885cf54311d0330295cc56716e9a85b1ed2ecb2db39a3019550c256c9acf0b3ad0c424a44b7295e066352c6f3671152e4f68cd4f4da31330a29b447c855384ec0460e63bd6130852dfad93aa76486854c643a23fdfa08b08964189de3fcb92f30d4d7759ad88ea8a04705c99ae41b68cd25bff54f2ee47f"
+  },
+  {
+    "time": "2026-10-11T10:46:08.234908+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 4362,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:08.235085+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20638fe4d44ed07b1e1a7379678c5b3a972570d8983f29dddbec38d9dcf5c5bea3cdc783c4c4009f7aa8023f0cf2ca1c99f3ae8478aa6e3758f45cca4cf4a26d95c2c71adef673cbb7a3a2d7afc2ae88ce83a63dc5ade7adcc69d6a3c4dbb92f8a807a048eae00548f2ff559107fe1b01971b06fced6884771b11e7ae74eb897739f86291a37cbe7449183194d9b7df3aed37564dcf0b5da45a9cfbcc3c35c7a1012"
+  },
+  {
+    "time": "2026-10-11T10:46:09.191659+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 4528,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:09.191830+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063499c26e6760a3d5c8c6bd3a7872fe5a41d633c4204dce811163bc2225c2a3d04e92e95d2ecbe86c9105907ee87f99273649f2239353de61d3f9c69b9267d5aa24b1ec5ad6965adc2d8bdcfd33a805831a65894e1de2d9265498a19917f7eb6898d48fa06a35442417f4b06bec6f343a943796333652b63fd36268b8a6178793d70a6493a6d18422b33e04d35bdefc51f36f6ab536506aab68dc9ae993a76a308"
+  },
+  {
+    "time": "2026-10-11T10:46:10.237636+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 4694,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:10.237798+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063613ad3cf62a7490d743d096c67ccb1f6091332e0796056c024fd47b22832a23075ed6d036f5e1b672b74da0971a21e1167b276d64c3d428ae8099be91264e1df831810c1fb60e4d93f60ac8b0606c16a5d9d22d0c736fabc2b1c45e06d3a52567f42280c2e85ac233332293665a422580bb46848a887b58af61a8ecb3dd0fef4bf7cb6f5a892af263fa97ef6cbd72c507e20758c5424576d627fe55dde000d3a"
+  },
+  {
+    "time": "2026-10-11T10:46:18.251530+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 4860,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:18.251705+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20633131efbb53cd89909ac5cc152cbcb7ce3bf163e3b85c685c5d14f8e2978ea2bc1d74123e732c657b01f9fe87b7281a468158460c2fb8b5ae27f9c1f5a61706c0249920704b4b6e99e6d581d47323a9d209eed2fa9f1921f135e587da75ff3f1b646c26afbd95783e957ebfec52ee040d2ccb311facea09ab9e56590cdd8367bed90e4bd66d10649a17203b828fe75b810469c4037d059fab14113e3800963b00"
+  },
+  {
+    "time": "2026-10-11T10:46:38.435554+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 5026,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:38.435730+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063c03eea50b9af8a7577dec76632ca69237a8b73d58aba9f0b1a6fdbea7e1eee48474918e5f6595dc4b051f4edb79fc2d6414f1ac0519750e3d9d301e6de502e4bded82fef4017d1a895ba66246e499f044a8698654c511d589ef4ee536c96b5dde7243914fbde83267418a5b3fc60c26f19f92a7af9d459307d5ba9d97daa73d6edc9676c0b7744d3e27255f9066df502d2dadedb99c10ab4820594c6cb30d38d"
+  },
+  {
+    "time": "2026-10-11T10:46:41.562887+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 5192,
+    "length": 102
+  },
+  {
+    "time": "2026-10-11T10:46:41.563044+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 102,
+    "type": 3,
+    "header": "8370005e2063",
+    "hex": "8370005e206338390b0149bbe9a90f379472f458157dfb8b5fe01d492ea42ba652ada25ed79ac3f922b2471ede2dbf402df9c318c25072f3bf8ed7e000812bdd7efdca8f194a88fa4b9a948256e31bdbc6d4bd15555396d59fbd042357580ff3931adf0e57bb"
+  },
+  {
+    "time": "2026-10-11T10:46:41.778499+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "offset": 2398,
+    "length": 102
+  },
+  {
+    "time": "2026-10-11T10:46:41.778618+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "cloud-to-device",
+    "length": 102,
+    "type": 3,
+    "header": "8370005e2063",
+    "hex": "8370005e20638e9e8bdf363f5d09279301df80aeb8abe188e586eada5c18cb9cc272755229a3fae30d94e1e314214fcf89dccbd88288c86abfc8a79a5a0f1b834e68194f36d73aa14b864788cdf5d81c5e6d6bf29c2dfc405ffdf83ccef4f80d80770bd8148a"
+  },
+  {
+    "time": "2026-10-11T10:46:46.324103+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 5294,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:46.324621+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063be992fce9fc31d751bd44fa55c968f62d519284022a3c0bd65e30d26f9992dade95a0ea3170d9e2154a6673e285e48be8e08cfc8fc9c594cb72255b04d7ae18e09bba072611fbf404f099b9b1d30c3ec534d89e95956cfcc09f60bc29c1452d3e039e77abec372e822b9556d10cd353c1de6aca8ca9dabc7e383b49d620dba81338b1bbff7fd464ca41962eb345c798f1e647c441891793ad6b50d15f635aebc"
+  },
+  {
+    "time": "2026-10-11T10:46:47.277930+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 5460,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:47.278082+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e206327182170120152f035682be66cea59bdde838cc237b5ddecc52f267a909b6bfabec4baf7199ff26565d8fb2922615cbee2f2ae649cb0bc99665803d2d323b00a4691b5d495341cc52117338f2cb0d3a756da7bbf6943066f507fd6eb04a1542d0517fe38b2ac9d2a402ee4244a5feb82826fe94c1261791efc4dc7d12de3b5218692b2b3d6911af3eaf89e363b6b4a1c4030adf32d36355388ea4f74288da3a2"
+  },
+  {
+    "time": "2026-10-11T10:46:48.323004+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 5626,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:48.323245+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063b0dd8b08bcaaa88b38a05821fc5dfccabed20283c9e8654550b9222b4fbcc1499f264c05693cded2720cf439e8bee15c483da0d82b85fd2c8bfa97b30a5c5cca1051d2124b4056b320cd67ac882bf21ddd9956b1265bdfad2b86c178476d43211b3eb5048aaeec52f180a254d280b2a89a84929971550561fb84176f1b8425ec01fe5d27253f418574d9c8ab33591096634e6b7deb3fe174fa6e36884e0f2cb3"
+  },
+  {
+    "time": "2026-10-11T10:46:49.354730+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 5792,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:49.354895+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e206369ba30ed2f0dbad2fbeebdfa8d650a5fdbcddf3f6f46defbef5504d2414da98c683568cd97f3ca143972f9956867dc0665137480a3614282df45222561c7eb7ddc24ad9a5e61cb8a70ba2c70cc2a5228ef32b02bf7c91146e6d4b8cf2d1667d59d1bf9f3db89a5c862b6707692839ac159385cdac27fc06ac7b7321492f06fb3e264737c73f73418ed4a07d7df7e869f8961be2df00a53c6b68820f580479811"
+  },
+  {
+    "time": "2026-10-11T10:46:50.403080+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 5958,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:50.403247+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e2063295b05cb0d69809c6268057ab7ca26093494f17b634b9b2f396e67546a0badb0b4d8d1aa7c688a68b9cf8976b2f3a877a623f07e438f0b4ee7bf82689cbb4d534f8179f6b60f3c360116cd2772f83ca4a4355300b9318151a7504f8800e0458f215ce5fd2720cba5fcb524905dba7b266b2c35888af75e09b34e2e2e0b2cd39530fc996a83f9cb94c078993c62c8219ff23f3ed1a5b4e7bdc4bce16dc68f5143"
+  },
+  {
+    "time": "2026-10-11T10:46:52.330756+00:00",
+    "event": "chunk",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "offset": 6124,
+    "length": 166
+  },
+  {
+    "time": "2026-10-11T10:46:52.331011+00:00",
+    "event": "frame",
+    "session": "20261011T104526796986Z-2",
+    "direction": "device-to-cloud",
+    "length": 166,
+    "type": 3,
+    "header": "8370009e2063",
+    "hex": "8370009e20639eec005fbddbe0836f789ccebf40b3c3eccb88c96822dc5bd20a1640ce892242fbb7c92fc729ec76e02725286da8349f6cb60092aeffab385f15e3638017665f7fef0f9691fe401ff44bf4d53d389e129cf33684f2083301cce93dea29613e60f7917a2e5038dfc748d3a80b53c8e13136cf6ad232692794d0df427024b0b9bc4b0f56cb785b9343ab2be2c7268815a58ecfdc18f16cec505d9f7f8106303687"
+  }
+]
